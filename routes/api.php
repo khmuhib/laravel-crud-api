@@ -43,4 +43,4 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
 
 
 
-Route::post('/login', [User::class, 'login']);
+// Route::post('/login', [User::class, 'login']);
